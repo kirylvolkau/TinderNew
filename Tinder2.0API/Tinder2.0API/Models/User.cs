@@ -1,10 +1,13 @@
 ﻿using System;
-namespace Tinder2._0API.Models
+namespace Tinder2API.Models
 {
-    public class Use
+    public class User
     {
-        public Use()
-        {
-        }
+        public int Id { get; set; }
+        public string Username { get; set; }
+
+        public byte[] PasswordHash{ get; set; }
+
+        public byte[] PasswordSalt { get; set; }
     }
 }

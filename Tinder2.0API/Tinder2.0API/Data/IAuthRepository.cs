@@ -1,10 +1,13 @@
 ﻿using System;
-namespace Tinder2._0API.Data
+using System.Threading.Tasks;
+using Tinder2API.Models;
+
+namespace Tinder2API.Data
 {
-    public class IAuthRepository
+    public interface IAuthRepository
     {
-        public IAuthRepository()
-        {
-        }
+        Task<User> Register(User user, string password);
+        Task<User> Login(string username, string password);
+        Task<bool> UserExists(string username);
     }
 }

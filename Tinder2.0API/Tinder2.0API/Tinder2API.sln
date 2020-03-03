@@ -1,0 +1,17 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tinder2API", "Tinder2API.csproj", "{DEC5F33C-4C68-426B-882F-5EB5B11B863D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DEC5F33C-4C68-426B-882F-5EB5B11B863D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DEC5F33C-4C68-426B-882F-5EB5B11B863D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DEC5F33C-4C68-426B-882F-5EB5B11B863D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DEC5F33C-4C68-426B-882F-5EB5B11B863D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
