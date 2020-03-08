@@ -5,6 +5,5 @@ obj
 *.db*
 .sln
 appsettings.json
-.idea
 .DS_Store
 
