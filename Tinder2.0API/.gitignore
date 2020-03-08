@@ -5,4 +5,5 @@ obj
 *.db*
 .sln
 appsettings.json
+.DS_Store
 
