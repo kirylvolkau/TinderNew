@@ -26,22 +26,22 @@ namespace Tinder2._0API.Controllers
         }
 
         [HttpPost("register")]
-        public async Task<IActionResult> Register(UserForRegisterDto userForRefisterDto)
+        public async Task<IActionResult> Register(UserForRegisterDto userForRegisterDto)
         {
             // validate a request
-            userForRefisterDto.Username = userForRefisterDto.Username.ToLower();
+            userForRegisterDto.Username = userForRegisterDto.Username.ToLower();
 
-            if(await _repo.UserExists(userForRefisterDto.Username))
+            if(await _repo.UserExists(userForRegisterDto.Username))
             {
                 return BadRequest("Username already exists");
             }
 
             var userToCreate = new User
             {
-                Username = userForRefisterDto.Username
+                Username = userForRegisterDto.Username
             };
 
-            var createdUser = await _repo.Register(userToCreate, userForRefisterDto.Password);
+            var createdUser = await _repo.Register(userToCreate, userForRegisterDto.Password);
 
             return StatusCode(201);
         }

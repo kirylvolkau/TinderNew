@@ -21,7 +21,7 @@ namespace Tinder2API
         }
         //GET
 
-        [AllowAnonymous]
+        //[AllowAnonymous]
         [HttpGet]
         public async Task<IActionResult> GetValues()
         {
