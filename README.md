@@ -1,5 +1,8 @@
 # TinderNew 
 
+# Current position
+![](src/website.gif)
+
 ## Intro
 This repository contains client and server sides for Single Page Application (SPA), called "Dating App" (or, as I call it sometimes, Tinder2.0 or TinderNew). 
 This is purely educational project.
